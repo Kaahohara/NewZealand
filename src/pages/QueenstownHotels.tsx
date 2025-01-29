@@ -10,9 +10,9 @@ function QueenstownHotels() {
      <Menu />
      <div className="filtro" style={{backgroundColor: 'darkolivegreen'}}>
         <div className="categorias">
-          <TuristicsPoints  link='/queenstown' img="queenstownGondolas.jpg" subtitle="Passeios"/>
-          <TuristicsPoints  link='/queenstownrestaurant' img="Nest Kitchen.jpg" subtitle="Restaurants"/>
-          <TuristicsPoints  link='/queenstowntonhotels' img="StoneridgeEstate.jpeg" subtitle="Hotels"/>
+          <TuristicsPoints  link='NewZealand/queenstown' img="queenstownGondolas.jpg" subtitle="Passeios"/>
+          <TuristicsPoints  link='NewZealand/queenstownrestaurant' img="Nest Kitchen.jpg" subtitle="Restaurants"/>
+          <TuristicsPoints  link='NewZealand/queenstowntonhotels' img="StoneridgeEstate.jpeg" subtitle="Hotels"/>
        </div>
      </div>
      <TitleLanding title="Hotels in Queenstown"/>
@@ -30,7 +30,7 @@ function QueenstownHotels() {
       Hotel para não fumantes
       Recepção 24 horas
         " 
-      href="NZ/queenstownhotels.html" 
+      href="" 
       img="naumi.jpg" 
     />
 
