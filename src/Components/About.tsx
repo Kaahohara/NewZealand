@@ -3,7 +3,7 @@ import newzealandsnow from '../assets/newzealandsnow.jpg'
 
 function About(){
     return (
-        <>
+        
         <div className="FundoLigthBlue">
             <div className="container">
                 <div id="secao2" className="dados">
@@ -31,7 +31,7 @@ function About(){
             </div>
         </div>
      
-    </>
+
             );
 }
     export default About;
