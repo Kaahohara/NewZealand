@@ -8,15 +8,15 @@ function Places(){
         <div className="FundoGray">
         <div className="text">Choose a city</div>
         <div className="ContainerPlaces">
-            <Link to="/auckland">
+            <Link to="NewZealand/auckland">
                 <img src={aucklandcity} alt='Auckland'/>
                 <p>Auckland</p>
             </Link>
-            <Link to="/wellington">
+            <Link to="NewZealand/wellington">
                 <img src={wellington2} alt='wellington'/>
                 <p>Wellington</p>
             </Link>
-            <Link to="/queenstown">
+            <Link to="NewZealand/queenstown">
                 <img src={queenstown} alt='queenstown'/>
                 <p>Queenstown</p>
             </Link>

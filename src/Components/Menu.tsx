@@ -5,13 +5,13 @@ function Menu(){
          
       <div className="menu">
                   
-            <Link to="/auckland">
+            <Link to="NewZealand/auckland">
                 <p>Auckland</p>
             </Link> 
-            <Link to="/wellington">
+            <Link to="NewZealand/wellington">
                 <p>Wellington</p>
             </Link> 
-            <Link to="/queenstown">
+            <Link to="NewZealand/queenstown">
                 <p>Queenstown</p>
             </Link> 
         </div>

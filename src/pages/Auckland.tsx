@@ -11,9 +11,9 @@ function Auckland() {
      <Menu />
      <div className="filtro" style={{backgroundColor: "#eead2d" }}>
         <div className="categorias">
-          <TuristicsPoints  link='/auckland' img="skytower.jpg" subtitle="Passeios"/>
-          <TuristicsPoints  link='/aucklandrestaurants' img="TheBridgman.jpg" subtitle="Restaurants"/>
-          <TuristicsPoints  link='/aucklandhotels' img="skycity.jpg" subtitle="Hotels"/>
+          <TuristicsPoints  link='NewZealand/auckland' img="skytower.jpg" subtitle="Passeios"/>
+          <TuristicsPoints  link='NewZealand/aucklandrestaurants' img="TheBridgman.jpg" subtitle="Restaurants"/>
+          <TuristicsPoints  link='NewZealand/aucklandhotels' img="skycity.jpg" subtitle="Hotels"/>
         </div>
      </div>
      <TitleLanding title="Auckland"/>
