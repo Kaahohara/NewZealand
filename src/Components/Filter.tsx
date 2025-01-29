@@ -15,7 +15,7 @@ function Filter({  link1, color, link2, link3,img1,img2,img3,subtitle1,subtitle2
 
     return ( 
         <div className="p-10 " style={{backgroundColor: color }}>
-        <div className="flex gap-4">
+        <div className="lg:flex justify-center gap-4">
           <TuristicsPoints  link={link1} img={img1} subtitle={subtitle1}/>
           <TuristicsPoints  link={link2} img={img2} subtitle={subtitle2}/>
           <TuristicsPoints  link={link3} img={img3} subtitle={subtitle3}/>
