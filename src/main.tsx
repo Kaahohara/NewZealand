@@ -16,14 +16,14 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import NotFoundPage from './pages/NotFoundPage.tsx'
 
 const router = createBrowserRouter([
-  { path: '/',
+  { path: 'NewZealand/',
     element:<App/>,
     errorElement: <NotFoundPage/>,
    },
-   { path: '/auckland',
+   { path: 'NewZealand/auckland',
     element:<Auckland/>,
    },
-   { path: '/Wellington',
+   { path: 'NewZealand/Wellington',
     element:<Wellington/>,
    },
    { path: '/queenstown',
