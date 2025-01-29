@@ -5,7 +5,7 @@ type TitleLandingProps = {
 function TitleLanding({ title }: TitleLandingProps) {
     if (title) {
         return (
-        <div className="title">
+        <div className="text-5xl">
             {title}
         </div>
         );

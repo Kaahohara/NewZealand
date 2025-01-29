@@ -1,5 +1,5 @@
 import Menu from '../Components/Menu'
-import TuristicsPoints from '../Components/TuristicsPoints'
+import Filter from '../Components/Filter'
 import Events from '../Components/Events'
 import TitleLanding from '../Components/TitleLanding'
 
@@ -8,13 +8,9 @@ function AucklandRestaurant() {
   return (
      < >
      <Menu />
-     <div className="filtro" style={{backgroundColor: 'darkolivegreen'}}>
-        <div className="categorias">
-          <TuristicsPoints  link='/queenstown' img="queenstownGondolas.jpg" subtitle="Passeios"/>
-          <TuristicsPoints  link='/queenstownrestaurant' img="Nest Kitchen.jpg" subtitle="Restaurants"/>
-          <TuristicsPoints  link='/queenstowntonhotels' img="StoneridgeEstate.jpeg" subtitle="Hotels"/>
-       </div>
-     </div>
+     <Filter color="darkolivegreen" link1='/NewZealand/queenstown' link2='/NewZealand/queenstownrestaurant' link3='/NewZealand/queenstowntonhotels' img1='queenstownGondolas.jpg'  subtitle1="Passeios" img2="wellingtonrestaurant.jpg" subtitle2="Nest Kitchen" img3="StoneridgeEstate.jpeg" subtitle3="Hotels"/>
+     <div className='justify-center flex p-10'>
+     <div className='w-3/4 pb-20'>
      <TitleLanding title="Restaurants in Queenstown"/>
      <Events subtitle="Nest Kitchen" 
          text="
@@ -41,7 +37,8 @@ function AucklandRestaurant() {
          Address:1Queenstown Bay, Queenstown 9300 Nova Zelândia" 
          href='https://www.perkys.co.nz/' 
          img="floatingBarspeaky.jpg"/>
-              
+                </div>
+                </div>  
     </>    
   )
 }

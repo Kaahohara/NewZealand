@@ -5,14 +5,13 @@ type TuristicsPointsProps = {
 };
 import { Link } from "react-router-dom"
 function TuristicsPoints({  link, img, subtitle }: TuristicsPointsProps) {
-    const url = `NewZealand/src/assets/${img}`; 
+    const url = `../NewZealand/src/assets/${img}`; 
   
     return ( 
                
-        
             <Link to={link}>
-                <img src={url} alt={subtitle}/>
-                <p>{subtitle}</p>
+                <img src={url} alt={subtitle} className="rounded-lg"/>
+                <p className="text-2xl text-white">{subtitle}</p>
             </Link>
 
     )

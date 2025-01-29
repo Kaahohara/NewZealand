@@ -1,20 +1,17 @@
 import Menu from '../Components/Menu'
-import TuristicsPoints from '../Components/TuristicsPoints'
 import Events from '../Components/Events'
 import TitleLanding from '../Components/TitleLanding'
+import Filter from '../Components/Filter'
 
 function AucklandRestaurant() {
  
   return (
      < >
      <Menu />
-     <div className="filtro">
-        <div className="categorias">
-          <TuristicsPoints  link='/wellington' img="bondecar.jpg" subtitle="Passeios"/>
-          <TuristicsPoints  link='/wellingtonrestaurant' img="wellingtonrestaurant.jpg" subtitle="Restaurants"/>
-          <TuristicsPoints  link='/wellingtonhotels' img="wellingtonhotel.jpg" subtitle="Hotels"/>
-       </div>
-     </div>
+     <Filter color="#a3ceef" link1='/NewZealand/wellington' link2='/NewZealand/wellingtonrestaurant' link3='/NewZealand/wellingtonhotels' img1='bondecar.jpg'  subtitle1="Passeios" img2="wellingtonrestaurant.jpg" subtitle2="Restaurants" img3="wellingtonhotel.jpg" subtitle3="Hotels"/>
+
+     <div className='justify-center flex p-10'>
+     <div className='w-3/4 pb-20'>
      <TitleLanding title="Restaurants in Wellington"/>
      <Events subtitle="The Thistle Inn" text="PRICE RANGE
         R$ 49 - R$ 106
@@ -29,7 +26,7 @@ function AucklandRestaurant() {
         Vegetarian options, Vegan options, Gluten-free options
         Phone:+64 4-381 3930
         Address:18 allen street Te Aro Wellington, 6011 New Zealand " href='https://rockyard.co.nz/' img="GoodGeorge.jpeg"/>
-              
+           </div></div>   
     </>    
   )
 }

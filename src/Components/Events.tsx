@@ -6,19 +6,20 @@ type Events = {
   };
   
   function Events({ text, img, subtitle, href }: Readonly<Events>) {
-    const url = `NewZealand/src/assets/${img}`; 
+    const url = `../NewZealand/src/assets/${img}`; 
   
     if (text && img && subtitle) {
       return (
-        <div className="containerpark">
-          <div className="picture">
-            <img src={url} alt={subtitle} />
+        <div className="flex gap-6 pt-6">
+          <div className="w-1/2">
+            <img src={url} className=" rounded-lg" alt={subtitle} width={"100%"} />
           </div>
-          <div className="namepark">
-            <p style={{ color: 'black', fontSize: '40px' }}>{subtitle}</p>
-            <p style={{color: 'black'}}>{text}</p>
-            {href && <a href={href}>Saiba mais</a>}
+          <div className="w-1/2">
+            <p className="text-black text-3xl">{subtitle}</p>
+            <p className="text-black">{text}</p><div className="mt-10 ">
+            {href && <a className="bg-blue-800 text-white p-2 rounded-lg" href={href}>Saiba mais</a>}
           </div>
+        </div>
         </div>
       );
     }

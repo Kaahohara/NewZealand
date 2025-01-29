@@ -3,15 +3,15 @@ import { Link } from "react-router-dom"
 function Menu(){
     return(
          
-      <div className="menu">
+      <div className="bg-gray-300 flex justify-center gap-6 text-2xl p-5">
                   
-            <Link to="NewZealand/auckland">
+            <Link to="/NewZealand/auckland">
                 <p>Auckland</p>
             </Link> 
-            <Link to="NewZealand/wellington">
+            <Link to="/NewZealand/wellington">
                 <p>Wellington</p>
             </Link> 
-            <Link to="NewZealand/queenstown">
+            <Link to="/NewZealand/queenstown">
                 <p>Queenstown</p>
             </Link> 
         </div>
