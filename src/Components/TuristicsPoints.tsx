@@ -5,7 +5,7 @@ type TuristicsPointsProps = {
 };
 import { Link } from "react-router-dom"
 function TuristicsPoints({  link, img, subtitle }: TuristicsPointsProps) {
-    const url = `../assets/${img}`; 
+    const url = `assets/${img}`; 
 
 
   
