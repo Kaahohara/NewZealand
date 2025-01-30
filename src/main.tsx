@@ -11,11 +11,10 @@ import WellingtonRestaurant from './pages/WellingtonRestaurant.tsx'
 import WellingtonHotels from './pages/WellingtonHotels.tsx'
 import QueenstownHotels from './pages/QueenstownHotels.tsx'
 import QueenstownRestaurant from './pages/QueenstownRestaurant.tsx'
-
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createHashRouter, RouterProvider } from 'react-router-dom'
 import NotFoundPage from './pages/NotFoundPage.tsx'
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   { path: '/NewZealand/',
     element:<App/>,
     errorElement: <NotFoundPage/>,
@@ -40,8 +39,7 @@ const router = createBrowserRouter([
    },
    { path: '/NewZealand/wellingtonrestaurant',
     element:<WellingtonRestaurant/>,
-   }
-   ,
+   },
    { path: '/NewZealand/queenstowntonhotels',
     element:<QueenstownHotels/>,
    },
@@ -49,6 +47,7 @@ const router = createBrowserRouter([
     element:<QueenstownRestaurant/>,
    }
 ]);
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
    <RouterProvider router={router}/>
