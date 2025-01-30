@@ -12,7 +12,7 @@ function TuristicsPoints({  link, img, subtitle }: TuristicsPointsProps) {
     return ( 
                
             <Link to={link} className="w-full justify-center">
-                <img src={url} alt={subtitle} height={'290px'} className="rounded-lg"/>
+                <img src={url} alt={subtitle} className="rounded-lg"/>
                 <p className="text-2xl text-white">{subtitle}</p>
             </Link>
 

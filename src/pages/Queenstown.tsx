@@ -8,7 +8,7 @@ function Queenstown() {
   return (
      < >
      <Menu />
-     <Filter color="darkolivegreen" link1='/queenstown' link2='/queenstownrestaurant' link3='/queenstownhotels' img1='queenstownGondolas.jpg'  subtitle1="Passeios" img2="wellingtonrestaurant.jpg" subtitle2="Nest Kitchen" img3="StoneridgeEstate.jpeg" subtitle3="Hotels"/>
+     <Filter color="darkolivegreen" link1='/queenstown' link2='/queenstownrestaurant' link3='/queenstownhotels' img1='queenstownGondolas.jpg'  subtitle1="Passeios" img2="NestKitchen.jpg" subtitle2="Nest Kitchen" img3="StoneridgeEstate.jpeg" subtitle3="Hotels"/>
      <div className='justify-center flex p-10'>
      <div className='w-3/4 pb-20'>
      <TitleLanding title="Queenstown"/>
