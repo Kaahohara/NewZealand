@@ -15,7 +15,7 @@ import NotFoundPage from './pages/NotFoundPage.tsx'
 import { createHashRouter, RouterProvider } from 'react-router-dom';
 
 const router = createHashRouter([
-  { path: '/NewZealand', element: <App />, errorElement: <NotFoundPage /> },
+  { path: '/', element: <App />, errorElement: <NotFoundPage /> },
   { path: '/auckland', element: <Auckland /> },
   { path: '/wellington', element: <Wellington /> },
   { path: '/queenstown', element: <Queenstown /> },
