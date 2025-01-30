@@ -10,7 +10,7 @@ function Auckland() {
      <Menu />
      <Filter color="#eead2d" link1='/auckland' link2='/aucklandrestaurants' link3='/aucklandhotels' img1='skytower.jpg'  subtitle1="Passeios" img2="TheBridgman.jpg" subtitle2="Restaurants" img3="skycity.jpg" subtitle3="Hotels"/>
 
-     <div className='justify-center flex p-10'>
+     <div className='justify-center flex lg:p-10 pt-10'>
      <div className='w-3/4 pb-20'>
      <TitleLanding title="Auckland"/>
      <Events subtitle="SKY TOWER" text="The Sky Tower has stood tall at 328 meters as an icon of Auckland's sky line for over 20 years. It's an exciting hub of adrenaline activities, superb dining and breath-taking views." href='' img="skytower.jpg"/>
