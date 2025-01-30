@@ -11,45 +11,24 @@ import WellingtonRestaurant from './pages/WellingtonRestaurant.tsx'
 import WellingtonHotels from './pages/WellingtonHotels.tsx'
 import QueenstownHotels from './pages/QueenstownHotels.tsx'
 import QueenstownRestaurant from './pages/QueenstownRestaurant.tsx'
-import { createHashRouter, RouterProvider } from 'react-router-dom'
 import NotFoundPage from './pages/NotFoundPage.tsx'
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 
 const router = createHashRouter([
-  { path: '/NewZealand/',
-    element:<App/>,
-    errorElement: <NotFoundPage/>,
-   },
-   { path: '/NewZealand/auckland',
-    element:<Auckland/>,
-   },
-   { path: '/NewZealand/Wellington',
-    element:<Wellington/>,
-   },
-   { path: '/NewZealand/queenstown',
-    element:<Queenstown/>,
-   },  
-   { path: '/NewZealand/aucklandrestaurants',
-    element:<AucklandRestaurant/>,
-   },  
-   { path: '/NewZealand/aucklandhotels',
-    element:<AucklandHotels/>,
-   },
-   { path: '/NewZealand/wellingtonhotels',
-    element:<WellingtonHotels/>,
-   },
-   { path: '/NewZealand/wellingtonrestaurant',
-    element:<WellingtonRestaurant/>,
-   },
-   { path: '/NewZealand/queenstowntonhotels',
-    element:<QueenstownHotels/>,
-   },
-   { path: '/NewZealand/queenstownrestaurant',
-    element:<QueenstownRestaurant/>,
-   }
+  { path: '/', element: <App />, errorElement: <NotFoundPage /> },
+  { path: '/auckland', element: <Auckland /> },
+  { path: '/wellington', element: <Wellington /> },
+  { path: '/queenstown', element: <Queenstown /> },
+  { path: '/aucklandrestaurants', element: <AucklandRestaurant /> },
+  { path: '/aucklandhotels', element: <AucklandHotels /> },
+  { path: '/wellingtonhotels', element: <WellingtonHotels /> },
+  { path: '/wellingtonrestaurant', element: <WellingtonRestaurant /> },
+  { path: '/queenstownhotels', element: <QueenstownHotels /> },
+  { path: '/queenstownrestaurant', element: <QueenstownRestaurant /> },
 ]);
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-   <RouterProvider router={router}/>
-  </StrictMode>,
-)
+    <RouterProvider router={router} />
+  </StrictMode>
+);

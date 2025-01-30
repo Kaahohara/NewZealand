@@ -10,15 +10,15 @@ function Places(){
         <p className="text-white text-3xl p-5">Choose a city</p>
         </div>
         <div className="lg:flex gap-4">
-            <Link to="/NewZealand/auckland">
+            <Link to="/auckland">
                 <img src={aucklandcity} alt='Auckland' className='rounded-lg'/>
                 <p className="text-white text-2xl p-2">Auckland</p>
             </Link>
-            <Link to="/NewZealand/wellington">
+            <Link to="/wellington">
                 <img src={wellington2} alt='wellington' className='rounded-lg'/>
                 <p className="text-white text-2xl p-2">Wellington</p>
             </Link>
-            <Link to="/NewZealand/queenstown">
+            <Link to="/queenstown">
                 <img src={queenstown} alt='queenstown' className='rounded-lg'/>
                 <p className="text-white text-2xl p-2">Queenstown</p>
             </Link>

@@ -8,7 +8,7 @@ function AucklandRestaurant() {
   return (
      < >
      <Menu />
-     <Filter color="#a3ceef" link1='/NewZealand/wellington' link2='/NewZealand/wellingtonrestaurant' link3='/NewZealand/wellingtonhotels' img1='bondecar.jpg'  subtitle1="Passeios" img2="wellingtonrestaurant.jpg" subtitle2="Restaurants" img3="wellingtonhotel.jpg" subtitle3="Hotels"/>
+     <Filter color="#a3ceef" link1='/wellington' link2='/wellingtonrestaurant' link3='/wellingtonhotels' img1='bondecar.jpg'  subtitle1="Passeios" img2="wellingtonrestaurant.jpg" subtitle2="Restaurants" img3="wellingtonhotel.jpg" subtitle3="Hotels"/>
 
      <div className='justify-center flex p-10'>
      <div className='w-3/4 pb-20'>
@@ -26,7 +26,8 @@ function AucklandRestaurant() {
         Vegetarian options, Vegan options, Gluten-free options
         Phone:+64 4-381 3930
         Address:18 allen street Te Aro Wellington, 6011 New Zealand " href='https://rockyard.co.nz/' img="GoodGeorge.jpeg"/>
-           </div></div>   
+           </div>
+           </div>   
     </>    
   )
 }

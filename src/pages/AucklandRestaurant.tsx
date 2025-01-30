@@ -10,7 +10,7 @@ function AucklandRestaurant() {
   return (
      < >
      <Menu />
-     <Filter color="#eead2d" link1='/NewZealand/auckland' link2='/NewZealand/aucklandrestaurants' link3='/NewZealand/aucklandhotels' img1='skytower.jpg'  subtitle1="Passeios" img2="TheBridgman.jpg" subtitle2="Restaurants" img3="skycity.jpg" subtitle3="Hotels"/>
+     <Filter color="#eead2d" link1='/auckland' link2='/aucklandrestaurants' link3='/aucklandhotels' img1='skytower.jpg'  subtitle1="Passeios" img2="TheBridgman.jpg" subtitle2="Restaurants" img3="skycity.jpg" subtitle3="Hotels"/>
      <div className='justify-center flex p-10'>
         <div className='w-3/4 pb-20'>
             <TitleLanding title="Restaurants in Auckland"/>

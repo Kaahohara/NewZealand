@@ -8,7 +8,7 @@ function Wellington() {
   return (
      < >
      <Menu />
-     <Filter color="#a3ceef" link1='/NewZealand/wellington' link2='/NewZealand/wellingtonrestaurant' link3='/NewZealand/wellingtonhotels' img1='bondecar.jpg'  subtitle1="Passeios" img2="wellingtonrestaurant.jpg" subtitle2="Restaurants" img3="wellingtonhotel.jpg" subtitle3="Hotels"/>
+     <Filter color="#a3ceef" link1='/wellington' link2='/wellingtonrestaurant' link3='/wellingtonhotels' img1='bondecar.jpg'  subtitle1="Passeios" img2="wellingtonrestaurant.jpg" subtitle2="Restaurants" img3="wellingtonhotel.jpg" subtitle3="Hotels"/>
 
      <div className='justify-center flex p-10'>
         <div className='w-3/4 pb-20'>

@@ -5,13 +5,13 @@ function Menu(){
          
       <div className="bg-gray-300 flex justify-center gap-6 text-2xl p-5">
                   
-            <Link to="/NewZealand/auckland">
+            <Link to="/auckland">
                 <p>Auckland</p>
             </Link> 
-            <Link to="/NewZealand/wellington">
+            <Link to="/wellington">
                 <p>Wellington</p>
             </Link> 
-            <Link to="/NewZealand/queenstown">
+            <Link to="/queenstown">
                 <p>Queenstown</p>
             </Link> 
         </div>
