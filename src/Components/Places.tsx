@@ -1,6 +1,6 @@
-import aucklandcity from '../assets/aucklandcity.jpg'
-import wellington2 from '../assets/wellington2.jpg'
-import queenstown from '../assets/queenstown.jpg'
+import aucklandcity from '/public/assets/aucklandcity.jpg'
+import wellington2 from  '/public/assets/wellington2.jpg'
+import queenstown from '/public/assets/queenstown.jpg'
 import { Link } from "react-router-dom"
 
 function Places(){

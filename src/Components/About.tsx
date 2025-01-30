@@ -1,5 +1,5 @@
-import bandeira from '../assets/bandeira.png'
-import newzealandsnow from '../assets/newzealandsnow.jpg'
+import bandeira from '/public/assets/bandeira.png'
+import newzealandsnow from '/public/assets/newzealandsnow.jpg'
 
 function About(){
     return (
