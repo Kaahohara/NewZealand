@@ -6,7 +6,7 @@ type Events = {
   };
   
   function Events({ text, img, subtitle, href }: Readonly<Events>) {
-    const url = `../public/assets/${img}`; 
+    const url = `NewZealand/assets/${img}`; 
 
 
   

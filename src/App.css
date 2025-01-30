@@ -9,7 +9,7 @@ body, html {
 }
 @font-face {
   font-family: 'Matcha';
-  src: url('.../public/assets/fonts/matcha_latte_3/Matcha\ Latte\ Script.ttf') format('truetype'); 
+  src: url('.../assets/fonts/matcha_latte_3/Matcha\ Latte\ Script.ttf') format('truetype'); 
 }
 @font-face {
   font-family: 'laluna';

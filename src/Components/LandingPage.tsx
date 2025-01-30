@@ -1,4 +1,4 @@
-import capa from '/public/assets/capa.jpg'
+import capa from '/assets/capa.jpg'
 function LandingPage() {
     return (
         <div
